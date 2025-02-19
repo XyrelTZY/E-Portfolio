@@ -7,10 +7,6 @@ export const NAV_LINKS = [
     href: "#about",
     label: "About me ",
   },
-  {
-    href: "#contact",
-    label: "Contact",
-  },
 ];
 
 export const HERO_SECTION =
