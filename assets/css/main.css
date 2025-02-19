@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Width & Height of Scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Vertical scrollbar */
+  height: 8px; /* Horizontal scrollbar */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: transparent;
+}
+
+/* Scrollbar Thumb (Draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #4a90e2;
+  border-radius: 10px;
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background: #357abd;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -11,14 +34,14 @@ body {
 }
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
 h2,
 h3,
 .poppins {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .greenShadow {

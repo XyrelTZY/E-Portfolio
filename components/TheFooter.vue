@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import { NAV_LINKS } from '@/data/constants'
+import { NAV_LINKS } from "@/data/constants";
 </script>
 
 <template>
   <footer
     class="dark:bg-black bg-slate-200 border-t-2 border-solid border-primary w-full"
-    id="contact">
-    <div class="mx-auto max-w-screen-xl my-8">
+    id="contact"
+  >
+    <!-- <div class="mx-auto max-w-screen-xl my-8">
       <a
         href="/#hero"
         class="flex justify-center items-center text-3xl font-semibold text-primary hover:text-blue-300 hover:underline">
@@ -32,16 +33,14 @@ import { NAV_LINKS } from '@/data/constants'
           >
         </li>
       </ul>
-    </div>
+    </div> -->
     <section class="border-t border-primary py-2">
       <a
-        href="https://github.com/atalek/portfolio-template"
+        href=""
         target="_blank"
         class="md:text-lg flex items-center justify-center hover:text-primary"
-        >© 2024 Portfolio Template - Made by atalek
-        <Icon
-          name="fa6-brands:github"
-          class="size-5 ml-2" />
+        >© 2024 E-Portfolio - Made by XyrelTzy
+        <!-- <Icon name="fa6-brands:github" class="size-5 ml-2" /> -->
       </a>
     </section>
   </footer>

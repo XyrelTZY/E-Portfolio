@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
-    "@vueuse/motion": "^2.2.3"
+    "@vueuse/motion": "^2.2.3",
+    "vue3-typed-js": "^0.0.1"
   }
 }
