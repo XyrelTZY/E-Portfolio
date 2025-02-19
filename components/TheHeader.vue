@@ -83,11 +83,11 @@
       >
         {{ link.label }}
       </a>
-      <NuxtLink
+      <!-- <NuxtLink
         to="/about"
         class="border rounded p-2 border-primary animate-link"
-        >About</NuxtLink
-      >
+        >Preface</NuxtLink
+      > -->
     </nav>
   </header>
 </template>
